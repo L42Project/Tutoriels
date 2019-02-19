@@ -1,7 +1,7 @@
 # Tutoriel tensorflow
 
 Ce tutoriel est visible dans la vidéo youtube qui se trouve à l'adresse suivante:
-https://www.youtube.com/watch?v=Tn2VjNbQCEM
+https://www.youtube.com/watch?v=WeotsGN_138
 
 N'hésitez pas à faire des commentaires sur youtube
 
