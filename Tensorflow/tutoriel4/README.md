@@ -18,12 +18,13 @@ Fonction d'activation: tangente hyperbolique
 ![graph tangente hyperbolique](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_tanh.png)
 
 Fonction d'activation: Unité de Rectification Linéaire (tn.nn.relu)
-![graph tangente hyperbolique](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_relu.png)
+![graph Unité de Rectification Linéaire](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_relu.png)
 
 Fonction d'activation: Leaky Relu (tn.nn.leaky_relu)
-![graph tangente hyperbolique](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_leaky_relu.png)
+![graph Leaky Relu](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_leaky_relu.png)
 
 Fonction d'activation: Unité Exponentielle Linéaire (tn.nn.selu)
-![graph tangente hyperbolique](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_selu.png)
+![graph Unité Exponentielle Linéaire](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_selu.png)
 
-
+Ci-dessous, l'ensemble des fonctions dans un même graphique:
+![graph fonctions d'activation](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_all_2.png)
