@@ -21,7 +21,7 @@ Fonction d'activation: Unité de Rectification Linéaire (tn.nn.relu)
 ![graph Unité de Rectification Linéaire](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_relu.png)
 
 Fonction d'activation: Leaky Relu (tn.nn.leaky_relu)
-![graph Leaky Relu](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_leaky_relu.png)
+![graph Leaky Relu](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_leaku_relu.png)
 
 Fonction d'activation: Unité Exponentielle Linéaire (tn.nn.selu)
 ![graph Unité Exponentielle Linéaire](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_selu.png)
