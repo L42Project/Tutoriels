@@ -11,11 +11,19 @@ et les placer dans le repertoire ./mnist
 
 Les graphiques suivants ont tous été générés avec un apprentissage sur 200 cycles. Cette apprentissage a pris entre 30 et 40 minutes sur un GeForce 1080
 
-Fonction d'activation : sigmoid (tn.nn.sigmoid)
-
+Fonction d'activation: sigmoid (tn.nn.sigmoid)
 ![graph sigmoid](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_sigmoid.png)
 
-Fonction d'activation : tangente hyperbolique
+Fonction d'activation: tangente hyperbolique
+![graph tangente hyperbolique](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_tanh.png)
 
-![graph sigmoid](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_tanh.jpg)
+Fonction d'activation: Unité de Rectification Linéaire (tn.nn.relu)
+![graph tangente hyperbolique](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_relu.png)
+
+Fonction d'activation: Leaky Relu (tn.nn.leaky_relu)
+![graph tangente hyperbolique](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_leaky_relu.png)
+
+Fonction d'activation: Unité Exponentielle Linéaire (tn.nn.selu)
+![graph tangente hyperbolique](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_selu.png)
+
 
