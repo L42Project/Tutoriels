@@ -13,3 +13,5 @@ La courbe d'erreur après 200 cycles d'apprentissage est la suivante :
 
 ![alt text](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel1/graph_error.png)
 
+Cet apprentissage prend environ 6 minutes sur une GeForce 1080
+
