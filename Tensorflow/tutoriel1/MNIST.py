@@ -5,8 +5,8 @@ import cv2
 
 nbr_ni=100
 learning_rate=0.0001
-taille_batch=5000
-nbr_entrainement=10
+taille_batch=100
+nbr_entrainement=200
 
 mnist_train_images=np.fromfile("mnist/train-images-idx3-ubyte", dtype=np.uint8)[16:].reshape(-1, 784)/255
 mnist_train_labels=np.eye(10)[np.fromfile("mnist/train-labels-idx1-ubyte", dtype=np.uint8)[8:]]
