@@ -12,3 +12,6 @@ et les placer dans le repertoire ./mnist
 La courbe d'erreur après 200 cycles d'apprentissage est la suivante :
 
 ![alt text](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel2/Figure_1.png)
+
+L'apprentissage prend environ 35 minutes sur un GeForce 1080
+

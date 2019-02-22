@@ -14,7 +14,7 @@ Les graphiques suivants ont tous été générés avec un apprentissage sur 200 
 Fonction d'activation: sigmoid (tn.nn.sigmoid)
 ![graph sigmoid](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_sigmoid.png)
 
-Fonction d'activation: tangente hyperbolique
+Fonction d'activation: tangente hyperbolique (tn.nn.tanh)
 ![graph tangente hyperbolique](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_tanh.png)
 
 Fonction d'activation: Unité de Rectification Linéaire (tn.nn.relu)
