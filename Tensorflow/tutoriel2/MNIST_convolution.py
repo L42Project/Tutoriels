@@ -4,9 +4,9 @@ import matplotlib.pyplot as plot
 import cv2
 
 def convolution(couche_prec, taille_noyau, nbr_noyau):
-    w_filtre=tf.Variable(tf.random.truncated_normal(shape=(taille_noyau, taille_noyau, int(couche_prec.get_shape()[-1]), nbr_noyau)))
-    b_filtre=np.zeros(nbr_noyau)
-    result=tf.nn.conv2d(couche_prec, w_filtre, strides=[1, 1, 1, 1], padding='SAME')+b_filtre
+    w=tf.Variable(tf.random.truncated_normal(shape=(taille_noyau, taille_noyau, int(couche_prec.get_shape()[-1]), nbr_noyau)))
+    b=np.zeros(nbr_noyau)
+    result=tf.nn.conv2d(couche_prec, w, strides=[1, 1, 1, 1], padding='SAME')+b
     return result
         
 def fc(couche_prec, nbr_neurone):
@@ -15,9 +15,9 @@ def fc(couche_prec, nbr_neurone):
     result=tf.matmul(couche_prec, w)+b
     return result
 
-taille_batch=50
-nbr_entrainement=20
-learning_rate=0.0001
+taille_batch=100
+nbr_entrainement=200
+learning_rate=0.001
 
 mnist_train_images=np.fromfile("mnist/train-images-idx3-ubyte", dtype=np.uint8)[16:].reshape(-1, 28, 28, 1)/255
 mnist_train_labels=np.eye(10)[np.fromfile("mnist/train-labels-idx1-ubyte", dtype=np.uint8)[8:]]
@@ -38,7 +38,7 @@ result=tf.nn.max_pool(result, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding=
 result=tf.contrib.layers.flatten(result)
 
 result=fc(result, 512)
-result=tf.nn.relu(result)
+result=tf.nn.sigmoid(result)
 result=fc(result, 10)
 scso=tf.nn.softmax(result)
 
