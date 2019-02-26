@@ -3,7 +3,7 @@ import operator
 
 face_cascade=cv2.CascadeClassifier("./haarcascade_frontalface_alt2.xml")
 profile_cascade=cv2.CascadeClassifier("./haarcascade_profileface.xml")
-cap=cv2.VideoCapture(1)
+cap=cv2.VideoCapture(0)
 width=int(cap.get(3))
 marge=70
 

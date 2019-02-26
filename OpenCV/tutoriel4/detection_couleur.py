@@ -4,7 +4,7 @@ import numpy as np
 lo=np.array([95, 100, 50])
 hi=np.array([105, 255, 255])
 color_infos=(0, 255, 255)
-cap=cv2.VideoCapture(1)
+cap=cv2.VideoCapture(0)
 
 while True:
     ret, frame=cap.read()
