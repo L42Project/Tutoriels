@@ -13,19 +13,19 @@ Les graphiques suivants ont tous été générés avec un apprentissage sur 200 
 
 Fonction d'activation: sigmoid (tn.nn.sigmoid)
 Temps approximatif de calcul sur une GeForce 1080: 35 minutes
-![graph sigmoid](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_sigmoid.png)
+![graph sigmoid](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel5/Figure_sigmoid.png)
 
 Fonction d'activation: tangente hyperbolique (tn.nn.tanh)
-![graph tangente hyperbolique](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_tanh.png)
+![graph tangente hyperbolique](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel5/Figure_tanh.png)
 
 Fonction d'activation: Unité de Rectification Linéaire (tn.nn.relu)
-![graph Unité de Rectification Linéaire](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_relu.png)
+![graph Unité de Rectification Linéaire](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel5/Figure_relu.png)
 
 Fonction d'activation: Leaky Relu (tn.nn.leaky_relu)
-![graph Leaky Relu](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_leaku_relu.png)
+![graph Leaky Relu](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel5/Figure_leaku_relu.png)
 
 Fonction d'activation: Unité Exponentielle Linéaire (tn.nn.selu)
-![graph Unité Exponentielle Linéaire](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_selu.png)
+![graph Unité Exponentielle Linéaire](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel5/Figure_selu.png)
 
 Ci-dessous, l'ensemble des fonctions dans un même graphique:
-![graph fonctions d'activation](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel4/Figure_all_2.png)
+![graph fonctions d'activation](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel5/Figure_all_2.png)
