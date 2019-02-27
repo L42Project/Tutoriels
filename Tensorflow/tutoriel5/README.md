@@ -30,8 +30,8 @@ Fonction d'activation: Unité Exponentielle Linéaire (tn.nn.selu)
 Ci-dessous, l'ensemble des fonctions dans un même graphique:
 
 Erreur sur la base d entrainement
-![graph fonctions d'activation](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel5/Figure_all.png)
+![graph base entrainement](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel5/Figure_all.png)
 
 Erreur sur la base de test
-![graph fonctions d'activation](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel5/Figure_all_2.png)
+![graph base de test](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel5/Figure_all_2.png)
 
