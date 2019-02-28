@@ -5,8 +5,8 @@ XXXXXXXXXXXXX
 
 N'hésitez pas à faire des commentaires sur youtube
 
-Les graphiques suivantes montrent les différentes courbes d'apprentissage réalisées avec lr programme du tutoriel #2. Seules la fonction d'activation est changée.
-L'apprentissage se fait sur 200 cycles. Cette apprentissage a pris 35 minutes sur un GeForce 1080, le temps reste le même quelque soit la fonction.
+Les graphiques suivants montrent les différentes courbes d'apprentissage réalisées avec le programme du tutoriel #2. Seule la fonction d'activation est changée.
+L'apprentissage se fait sur 200 cycles et prend environ 35 minutes avec une GeForce 1080; le temps reste le même quelque soit la fonction.
 
 Fonction d'activation: sigmoid (tn.nn.sigmoid)
 Temps approximatif de calcul sur une GeForce 1080: 35 minutes
