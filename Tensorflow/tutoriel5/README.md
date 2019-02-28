@@ -5,11 +5,8 @@ XXXXXXXXXXXXX
 
 N'hésitez pas à faire des commentaires sur youtube
 
-Pour utiliser ce script, vous devez récuperer les fichier MNIST sur le site suivant:
-http://yann.lecun.com/exdb/mnist/
-et les placer dans le repertoire ./mnist
-
-Les graphiques suivants ont tous été générés avec un apprentissage sur 200 cycles. Cette apprentissage a pris entre 30 et 40 minutes sur un GeForce 1080
+Les graphiques suivantes montrent les différentes courbes d'apprentissage réalisées avec lr programme du tutoriel #2. Seules la fonction d'activation est changée.
+L'apprentissage se fait sur 200 cycles. Cette apprentissage a pris 35 minutes sur un GeForce 1080, le temps reste le même quelque soit la fonction.
 
 Fonction d'activation: sigmoid (tn.nn.sigmoid)
 Temps approximatif de calcul sur une GeForce 1080: 35 minutes
