@@ -9,7 +9,6 @@ Les graphiques suivants montrent les différentes courbes d'apprentissage réali
 L'apprentissage se fait sur 200 cycles et prend environ 35 minutes avec une GeForce 1080; le temps reste le même quelque soit la fonction.
 
 Fonction d'activation: sigmoid (tn.nn.sigmoid)
-Temps approximatif de calcul sur une GeForce 1080: 35 minutes
 ![graph sigmoid](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel5/Figure_sigmoid.png)
 
 Fonction d'activation: tangente hyperbolique (tn.nn.tanh)
@@ -26,11 +25,9 @@ Fonction d'activation: Unité Exponentielle Linéaire (tn.nn.selu)
 
 Ci-dessous, l'ensemble des fonctions dans un même graphique:
 
-Erreur sur la base d entrainement
-
+Erreur sur la base d entrainement:
 ![graph base entrainement](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel5/Figure_all.png)
 
-Erreur sur la base de test
-
+Erreur sur la base de test:
 ![graph base de test](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel5/Figure_all_2.png)
 
