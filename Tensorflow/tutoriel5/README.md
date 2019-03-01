@@ -38,6 +38,8 @@ L'apprentissage se fait sur 200 cycles et prend environ 35 minutes avec une GeFo
 N'oubliez pas de récuperer la base cifar10 (binary version) à l'adresse suivante:
 https://www.cs.toronto.edu/~kriz/cifar.html
 
+L'entrainement prend environ 2h40 sur un GeForce 1080
+
 #### Graph de l'entrainement:
 ![graph entrainement](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel5/Figure_cifar_vgg.png)
 
