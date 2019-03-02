@@ -16,7 +16,7 @@ def fc(couche_prec, nbr_neurone):
     return result
 
 taille_batch=100
-nbr_entrainement=200
+nbr_entrainement=3
 learning_rate=0.001
 
 mnist_train_images=np.fromfile("mnist/train-images-idx3-ubyte", dtype=np.uint8)[16:].reshape(-1, 28, 28, 1)/255
@@ -89,6 +89,6 @@ with tf.Session() as s:
         print("image", image)
         print("sortie du réseau:", resulat[image], np.argmax(resulat[image]))
         print("sortie attendue :", mnist_test_labels[image], np.argmax(mnist_test_labels[image]))
-        cv2.imshow('image', mnist_test_images[image].reshape(28, 28))
+        cv2.imshow('image', mnist_test_images[image])
         if cv2.waitKey()==ord('q'):
             break
