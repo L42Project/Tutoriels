@@ -6,4 +6,5 @@ La vidéo de ce tutoriel est disponible à l'adresse suivante: En cours
 Courbe d'apprentissage sur 200 cycles:
 ![graph apprentissage](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel6/Figure_1.png)
 
+L'apprentissage prend 6h30 sur une GeForce 1080
 
