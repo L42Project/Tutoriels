@@ -1,4 +1,5 @@
 # Tutoriel tensorflow
+## Réalisation d'un réseau convolutif et utilisation sur la base MNIST
 
 La vidéo du tutoriel se trouve à l'adresse suivante:
 https://www.youtube.com/watch?v=mUyRdiQRJBI
