@@ -5,10 +5,10 @@ https://www.youtube.com/watch?v=QaazrkwooFA
 
 N'hésitez pas à faire des commentaires sur youtube
 
-## Test de différentes fonctions sur la programme du tutoriel #2
+## Test de différentes fonctions sur le programme du tutoriel #2
 
-Les graphiques suivants montrent les différentes courbes d'apprentissage réalisées avec le programme du tutoriel #2. Seule la fonction d'activation est changée.
-L'apprentissage se fait sur 200 cycles et prend environ 35 minutes avec une GeForce 1080; le temps reste le même quelque soit la fonction.
+Les graphiques suivants montrent les différentes courbes d'apprentissage réalisées avec le programme du tutoriel #2 (https://www.youtube.com/watch?v=mUyRdiQRJBI). Seule la fonction d'activation est changée.
+L'apprentissage se fait sur 200 cycles et prend environ 35 minutes avec une GeForce 1080; le temps reste sensiblement le même quelque soit la fonction.
 
 #### Fonction d'activation: sigmoid (tn.nn.sigmoid)
 ![graph sigmoid](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel5/images/Figure_sigmoid.png)
