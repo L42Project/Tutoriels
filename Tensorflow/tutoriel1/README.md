@@ -1,9 +1,9 @@
 # Tutoriel tensorflow
 
-Ce tutoriel est visible dans la vidéo youtube qui se trouve à l'adresse suivante:
+La vidéo du tutoriel se trouve à l'adresse suivante:
 https://www.youtube.com/watch?v=WeotsGN_138
 
-N'hésitez pas à faire des commentaires sur youtube
+N'hésitez pas à faire des commentaires sur youtube.
 
 Pour utiliser ce script, vous devez récuperer les fichier MNIST sur le site suivant:
 http://yann.lecun.com/exdb/mnist/
