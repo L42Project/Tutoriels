@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import tensorflow as tf
 
-cap=cv2.VideoCapture(1)
+cap=cv2.VideoCapture(0)
 np.set_printoptions(formatter={'float': '{:0.3f}'.format})
 with tf.Session() as s:
     saver=tf.train.import_meta_graph('./mon_vgg/modele.meta')
@@ -21,7 +21,6 @@ with tf.Session() as s:
                     test[y][x]=1
                 else:
                     test[y][x]=0
-        #test=cv2.dilate(test, None, iterations=1)
         cv2.imshow('image', cv2.resize(test, (120, 120))*255)
         prediction=s.run(sortie, feed_dict={images: [test.reshape(28, 28, 1)], is_training: False})
         print(prediction, np.argmax(prediction))
