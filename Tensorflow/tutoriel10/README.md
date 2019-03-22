@@ -1,5 +1,5 @@
 # Tutoriel tensorflow
-## Surapprentissage: utilisation de dropout
+## Surapprentissage: complétion du dataset
 
 La vidéo de ce tutoriel est disponible à l'adresse suivante: https://www.youtube.com/watch?v=rLSnx0LiObo
 
