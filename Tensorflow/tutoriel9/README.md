@@ -3,7 +3,7 @@
 
 La vidéo de ce tutoriel est disponible à l'adresse suivante: https://www.youtube.com/watch?v=reV2aoa6svM
 
-## VGGNet sur CIFAR10
+## CIFAR10
 
 N'oubliez pas de récuperer la base cifar10 (binary version) à l'adresse suivante:
 https://www.cs.toronto.edu/~kriz/cifar.html
