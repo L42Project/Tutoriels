@@ -36,3 +36,5 @@ https://www.youtube.com/watch?v=reV2aoa6svM
 ### Tutoriel #10: Tensorflow: surapprentissage: complétion du dataset
 https://www.youtube.com/watch?v=rLSnx0LiObo
 
+### Tutoriel #11: Labelimg et conversion des XML en np.array
+https://www.youtube.com/watch?v=VWXXFFDqBqA
