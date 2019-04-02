@@ -24,7 +24,7 @@ with tf.Session() as s:
         cv2.imshow('image', cv2.resize(test, (120, 120))*255)
         prediction=s.run(sortie, feed_dict={images: [test.reshape(28, 28, 1)], is_training: False})
         print(prediction, np.argmax(prediction))
-        if cv2.waitKey(20)==ord('q'):
+        if cv2.waitKey(20)&0xFF==ord('q'):
             break
 cap.release()
 cv2.destroyAllWindows()

@@ -14,7 +14,7 @@ while True:
     fps=cv2.getTickFrequency()/(cv2.getTickCount()-tickmark)
     cv2.putText(frame, "FPS: {:05.2f}".format(fps), (10, 30), cv2.FONT_HERSHEY_PLAIN, 2, (255, 0, 0), 2)
     cv2.imshow('video', frame)
-    if cv2.waitKey(1)==ord('q'):
+    if cv2.waitKey(1)&0xFF==ord('q'):
         break
 cap.release()
 cv2.destroyAllWindows()

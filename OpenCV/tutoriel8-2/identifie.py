@@ -37,7 +37,7 @@ while True:
     fps=cv2.getTickFrequency()/(cv2.getTickCount()-tickmark)
     cv2.putText(frame, "FPS: {:05.2f}".format(fps), (10, 30), cv2.FONT_HERSHEY_PLAIN, 2, color_info, 2)
     cv2.imshow('L42Project', frame)
-    key=cv2.waitKey(1)
+    key=cv2.waitKey(1)&0xFF
     if key==ord('q'):
         break
     if key==ord('a'):

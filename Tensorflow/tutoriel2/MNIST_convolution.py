@@ -90,5 +90,5 @@ with tf.Session() as s:
         print("sortie du réseau:", resulat[image], np.argmax(resulat[image]))
         print("sortie attendue :", mnist_test_labels[image], np.argmax(mnist_test_labels[image]))
         cv2.imshow('image', mnist_test_images[image])
-        if cv2.waitKey()==ord('q'):
+        if cv2.waitKey()&0xFF==ord('q'):
             break

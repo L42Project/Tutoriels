@@ -41,7 +41,7 @@ while True:
     cv2.imshow('image2', image2)
     cv2.imshow('Mask', mask)
     cv2.setMouseCallback('Camera', souris)
-    if cv2.waitKey(1)==ord('q'):
+    if cv2.waitKey(1)&0xFF==ord('q'):
         break
 cap.release()
 cv2.destroyAllWindows()

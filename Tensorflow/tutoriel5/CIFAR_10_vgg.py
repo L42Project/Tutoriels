@@ -37,7 +37,6 @@ nbr_entrainement=200
 learning_rate=0.01
 labels=['avion', 'automobile', 'oiseau', 'chat', 'cerf', 'chien', 'grenouille', 'cheval', 'bateau', 'camion']
 
-
 train_images=[]
 train_labels=[]
 read_cifar_file("cifar-10-batches-bin/data_batch_1.bin", train_images, train_labels)
@@ -113,6 +112,7 @@ erreur=tf.nn.softmax_cross_entropy_with_logits_v2(labels=ph_labels, logits=resul
 train=tf.train.AdamOptimizer(learning_rate).minimize(erreur)
 precision=tf.reduce_mean(tf.cast(tf.equal(tf.argmax(socs, 1), tf.argmax(ph_labels, 1)), tf.float32))
 
+
 with tf.Session() as s:
     s.run(tf.global_variables_initializer())
     tab_train=[]
@@ -144,7 +144,7 @@ with tf.Session() as s:
         print("  test :", np.mean(tab_precision_test))
         tab_train.append(1-np.mean(tab_precision_train))
         tab_test.append(1-np.mean(tab_precision_test))
-
+    quit()
     plot.ylim(0, 1)
     plot.grid()
     plot.plot(tab_train, label="Train error")
@@ -159,6 +159,6 @@ with tf.Session() as s:
         print("sortie du réseau:", resulat[image], np.argmax(resulat[image]), labels[np.argmax(resulat[image])])
         print("sortie attendue :", test_labels[image], np.argmax(test_labels[image]), labels[np.argmax(test_labels[image])])
         cv2.imshow('image', test_images[image])
-        if cv2.waitKey()==ord('q'):
+        if cv2.waitKey()&0xFF==ord('q'):
             break
 

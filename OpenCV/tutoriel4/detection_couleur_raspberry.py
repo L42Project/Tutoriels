@@ -32,7 +32,7 @@ with picamera.PiCamera() as camera:
             cv2.imshow('Camera', stream.array)
             cv2.imshow('image2', image2)
             cv2.imshow('Mask', mask)
-            if cv2.waitKey(1)==ord('q'):
+            if cv2.waitKey(1)&0xFF==ord('q'):
                 break
             stream.seek(0)
             stream.truncate()                        

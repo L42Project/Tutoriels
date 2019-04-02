@@ -26,7 +26,7 @@ while True:
     cv2.imshow('Camera', frame)
     cv2.imshow('image2', image2)
     cv2.imshow('Mask', mask)
-    if cv2.waitKey(1)==ord('q'):
+    if cv2.waitKey(1)&0xFF==ord('q'):
         break
 cap.release()
 cv2.destroyAllWindows()

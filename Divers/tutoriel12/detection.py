@@ -136,7 +136,7 @@ with detection_graph.as_default():
             fps=cv2.getTickFrequency()/(cv2.getTickCount()-tickmark)
             cv2.putText(frame, "FPS: {:05.2f}".format(fps), (10, 20), cv2.FONT_HERSHEY_PLAIN, 1, color_infos, 2)
             cv2.imshow('image', frame)
-            key=cv2.waitKey(1)
+            key=cv2.waitKey(1)&0xFF
             if key==ord('a'):
                 for objet in range(500):
                     ret, frame=cap.read()
