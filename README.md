@@ -42,5 +42,5 @@ https://www.youtube.com/watch?v=VWXXFFDqBqA
 ### Tutoriel #12: utilisation basique de réseaux de neurones dédiés à la vision (modèle zoo)
 https://www.youtube.com/watch?v=r2U-ntB-RM4
 
-## Tutoriel #13: OpenCV: détection d'objet par soustraction
+### Tutoriel #13: OpenCV: détection d'objet par soustraction
 https://www.youtube.com/watch?v=pkzT9MlICPE
