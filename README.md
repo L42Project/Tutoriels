@@ -44,3 +44,6 @@ https://www.youtube.com/watch?v=r2U-ntB-RM4
 
 ### Tutoriel #13: OpenCV: détection d'objet par soustraction
 https://www.youtube.com/watch?v=pkzT9MlICPE
+
+### Tutoriel #14: OpenCV: Détection de ligne avec Canny
+https://www.youtube.com/watch?v=bCElBNENCy4
