@@ -47,3 +47,6 @@ https://www.youtube.com/watch?v=pkzT9MlICPE
 
 ### Tutoriel #14: OpenCV: Détection de ligne avec Canny
 https://www.youtube.com/watch?v=bCElBNENCy4
+
+### Tutoriel #15: Tensorflow: Réseau GoogleNet (inception v1)
+https://www.youtube.com/watch?v=wiEbLFJVePY
