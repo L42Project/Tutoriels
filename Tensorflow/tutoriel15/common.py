@@ -44,7 +44,6 @@ def b_inception_v1(input, nbr_1, nbr_3r, nbr_3, nbr_5r, nbr_5, nbr_pool, trainin
     result4=couche_convolution(result4, 1, nbr_pool, 1, True, tf.nn.relu, training)
 
     result=tf.concat([result1, result2, result3, result4], 3)
-    print(result)
     return result
 
 def aux(input, training, nbr_classes):
