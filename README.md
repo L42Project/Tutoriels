@@ -49,4 +49,4 @@ https://www.youtube.com/watch?v=pkzT9MlICPE
 https://www.youtube.com/watch?v=bCElBNENCy4
 
 ### Tutoriel #15: Tensorflow: Réseau GoogleNet (inception v1)
-https://www.youtube.com/watch?v=wiEbLFJVePY
+https://www.youtube.com/watch?v=b4vv_vLVyho

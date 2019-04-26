@@ -1,7 +1,7 @@
 # Tutoriel tensorflow
 ## Réseau GoogleNet (inception v1)
 
-La vidéo de ce tutoriel est disponible à l'adresse suivante: https://www.youtube.com/watch?v=wiEbLFJVePY
+La vidéo de ce tutoriel est disponible à l'adresse suivante: https://www.youtube.com/watch?v=b4vv_vLVyho
 
 ## STL10
 
