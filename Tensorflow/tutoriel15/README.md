@@ -5,7 +5,7 @@ La vidéo de ce tutoriel est disponible à l'adresse suivante: https://www.youtu
 
 ## STL10
 
-N'oubliez pas de récuperer la base stl10 (binary version) à l'adresse suivante:
+N'oubliez pas de récupérer la base stl10 (binary version) à l'adresse suivante:
 https://cs.stanford.edu/~acoates/stl10/
 
 
