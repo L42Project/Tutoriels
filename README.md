@@ -50,3 +50,6 @@ https://www.youtube.com/watch?v=bCElBNENCy4
 
 ### Tutoriel #15: Tensorflow: Réseau GoogleNet (inception v1)
 https://www.youtube.com/watch?v=b4vv_vLVyho
+
+### Tutoriel #15: Tensorflow: Les réseaux résiduels
+https://www.youtube.com/watch?v=yvzY1JP0OFY

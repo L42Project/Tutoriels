@@ -1,7 +1,7 @@
 # Tutoriel tensorflow
 ## Réseau ResNet
 
-La vidéo de ce tutoriel est disponible à l'adresse suivante: En cours
+La vidéo de ce tutoriel est disponible à l'adresse suivante: https://www.youtube.com/watch?v=yvzY1JP0OFY
 
 ## STL10
 
