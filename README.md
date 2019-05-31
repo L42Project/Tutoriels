@@ -59,3 +59,8 @@ https://www.youtube.com/watch?v=yvzY1JP0OFY
 
 ### Tutoriel #17: OpenCV: détection de mouvement
 https://www.youtube.com/watch?v=731tP7t1BOc
+
+### Tutoriel #18: Sudoku partie 1
+https://www.youtube.com/watch?v=WwPHs1SJrec
+
+
