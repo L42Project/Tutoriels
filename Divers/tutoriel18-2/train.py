@@ -85,11 +85,6 @@ for dir in ["/usr/share/fonts/truetype/ubuntu-font-family/", "/usr/share/fonts/t
                         image_m=modif_image(image, 1.05+np.random.rand())
                         tab_images.append(image_m)
                         tab_labels.append(np.eye(10)[i])
-                        if True:
-                            cv2.imshow('chiffre', image_m)
-                            key=cv2.waitKey()
-                            if key&0xFF==ord('q'):
-                                quit()
                 image=np.zeros((28, 28, 1))
                 for cpt in range(3*nbr):
                     image_m=modif_image(image, 1.05+np.random.rand())
@@ -103,23 +98,23 @@ tab_images=tab_images/255
 
 tab_images, tab_labels=shuffle(tab_images, tab_labels)
 
-if False:
+if False: # Changer en True si vous voulez voir les images générées
     for i in range(len(tab_images)):
         cv2.imshow('chiffre', tab_images[i].reshape(28, 28, 1))
         print(tab_labels[i], np.argmax(tab_labels[i]))
         if cv2.waitKey()&0xFF==ord('q'):
-            quit()
+            break
+
 print("Nbr:", len(tab_images))
 
 train_images, test_images, train_labels, test_labels=train_test_split(tab_images, tab_labels, test_size=0.10)
 
 images, labels, is_training, sortie, train, accuracy, saver=ia(10, 28, 1)
-quit()
+
 with tf.Session() as s:
     s.run(tf.global_variables_initializer())
     tab_train=[]
     tab_test=[]
-    #train_images, train_labels=shuffle(train_images, train_labels)
     for id_entrainement in np.arange(nbr_entrainement):
         print("> Entrainement", id_entrainement)
         for batch in np.arange(0, len(train_images), taille_batch):
