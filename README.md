@@ -63,4 +63,5 @@ https://www.youtube.com/watch?v=731tP7t1BOc
 ### Tutoriel #18: Sudoku partie 1
 https://www.youtube.com/watch?v=WwPHs1SJrec
 
-
+### Tutoriel #18: Sudoku partie 2
+https://www.youtube.com/watch?v=XFNg8lXe-Tk
