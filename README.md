@@ -65,3 +65,6 @@ https://www.youtube.com/watch?v=WwPHs1SJrec
 
 ### Tutoriel #18: Sudoku partie 2
 https://www.youtube.com/watch?v=XFNg8lXe-Tk
+
+### Tutoriel #19: Réseau Unet: segmentation d'image partie 1
+https://www.youtube.com/watch?v=crifGfMpPjc
