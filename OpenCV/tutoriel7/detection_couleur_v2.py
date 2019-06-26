@@ -20,6 +20,8 @@ lo=np.array([color-5, 100, 50])
 hi=np.array([color+5, 255,255])
 color_info=(0, 0, 255)
 cap=cv2.VideoCapture(0)
+cv2.namedWindow('Camera')
+cv2.setMouseCallback('Camera', souris)
 while True:
     ret, frame=cap.read()
     image=cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
@@ -40,7 +42,6 @@ while True:
     cv2.imshow('Camera', frame)
     cv2.imshow('image2', image2)
     cv2.imshow('Mask', mask)
-    cv2.setMouseCallback('Camera', souris)
     if cv2.waitKey(1)&0xFF==ord('q'):
         break
 cap.release()
