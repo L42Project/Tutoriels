@@ -72,8 +72,8 @@ https://www.youtube.com/watch?v=PrZ3r33gewQ
 ### Tutoriel #19: Réseau Unet: segmentation d'image partie 2
 https://www.youtube.com/watch?v=OiqiMn-s73U
 
-### Tutoriel 20: Dlib: Détection et évaluation de la position de la tête
+### Tutoriel #20: Dlib: Détection et évaluation de la position de la tête
 https://www.youtube.com/watch?v=ibuEFfpVWlU
 
-### Tutoriel 21: Détection d'objet avec calcBackProject
+### Tutoriel #21: Détection d'objet avec calcBackProject
 https://www.youtube.com/watch?v=nMJertuuO08
