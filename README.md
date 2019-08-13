@@ -77,3 +77,6 @@ https://www.youtube.com/watch?v=ibuEFfpVWlU
 
 ### Tutoriel #21: OpenCV: Détection d'objet avec calcBackProject
 https://www.youtube.com/watch?v=nMJertuuO08
+
+### Tutoriel #22: OpenCV: Suivi d'objet avec meanShift et CamShift
+https://www.youtube.com/watch?v=c4msQJACeX0
