@@ -13,6 +13,8 @@ if not os.path.isdir(img_non_classees):
 id=0
 while True:
     ret, frame=cap.read()
+    if ret is False:
+        break
     gray=cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     face=face_cascade.detectMultiScale(gray, scaleFactor=1.2, minNeighbors=4, minSize=(c.min_size, c.min_size))
     for x, y, w, h in face:
