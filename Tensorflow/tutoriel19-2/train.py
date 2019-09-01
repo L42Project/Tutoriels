@@ -10,7 +10,7 @@ dir_mask="CameraSeg/"
 width=200
 height=125
 
-taille_batch=50
+taille_batch=100
 nbr_entrainement=100
 
 def crop(tensor1, tensor2):
@@ -107,7 +107,8 @@ ph_images, ph_masks, ph_is_training, mask, train, accuracy, saver=unet(2, (heigh
 
 tab_img=[]
 tab_mask=[]
-for dir in ['../tutoriel19-1/dataA/', '../tutoriel19-1/dataB/', '../tutoriel19-1/dataC/', '../tutoriel19-1/dataD/', '../tutoriel19-1/dataE/']:
+#for dir in ['../tutoriel19-1/dataA/', '../tutoriel19-1/dataB/', '../tutoriel19-1/dataC/', '../tutoriel19-1/dataD/', '../tutoriel19-1/dataE/']:
+for dir in ['../tutoriel19-1/dataA/', '../tutoriel19-1/dataB/', '../tutoriel19-1/dataC/', '../tutoriel19-1/dataD/']:
     for file in os.listdir(dir+dir_img):
         tab_img.append(cv2.resize(cv2.imread(dir+dir_img+file)[0:500, 0:800], (width, height))/255)
         img_mask=cv2.resize(cv2.imread(dir+dir_mask+file)[0:500, 0:800], (width, height))[:,:,2]

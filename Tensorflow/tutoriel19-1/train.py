@@ -10,7 +10,7 @@ dir_mask="CameraSeg/"
 width=160
 height=120
 
-taille_batch=100
+taille_batch=50
 nbr_entrainement=100
 
 def convolution(input, taille_noyau, nbr_cc, stride, b_norm=False, f_activation=None, training=False):
@@ -92,7 +92,8 @@ ph_images, ph_masks, ph_is_training, mask, train, accuracy, saver=unet(2, (heigh
 
 tab_img=[]
 tab_mask=[]
-for dir in ['dataA/', 'dataB/', 'dataC/', 'dataD/', 'dataE/']:
+#for dir in ['dataA/', 'dataB/', 'dataC/', 'dataD/', 'dataE/']:
+for dir in ['dataA/', 'dataB/', 'dataC/', 'dataD/']:
     for file in os.listdir(dir+dir_img):
         tab_img.append(cv2.resize(cv2.imread(dir+dir_img+file), (width, height))/255)
         img_mask=cv2.resize(cv2.imread(dir+dir_mask+file), (width, height))[:,:,2]
