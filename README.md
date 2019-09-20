@@ -80,3 +80,9 @@ https://www.youtube.com/watch?v=nMJertuuO08
 
 ### Tutoriel #22: OpenCV: Suivi d'objet avec meanShift et CamShift
 https://www.youtube.com/watch?v=c4msQJACeX0
+
+### Tutoriel #23: Tensorflow 2.0
+https://www.youtube.com/watch?v=-lz3zHRTfow
+
+### Tutoriel #24: Tensorflow: Réseau GAN: générons des visages !
+https://www.youtube.com/watch?v=_5OCETzAVDs
