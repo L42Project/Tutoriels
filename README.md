@@ -88,4 +88,4 @@ https://www.youtube.com/watch?v=-lz3zHRTfow
 https://www.youtube.com/watch?v=_5OCETzAVDs
 
 ### Algorithme d'apprentissage: la descente de gradient
-https://www.youtube.com/watch?v=m_QXt4_-u2U
+https://www.youtube.com/watch?v=0MEyDJa2GTc
