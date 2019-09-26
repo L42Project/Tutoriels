@@ -87,5 +87,5 @@ https://www.youtube.com/watch?v=-lz3zHRTfow
 ### Tutoriel #24: Tensorflow: Réseau GAN: générons des visages !
 https://www.youtube.com/watch?v=_5OCETzAVDs
 
-# Algorithme d'apprentissage: la descente de gradient
+### Algorithme d'apprentissage: la descente de gradient
 https://www.youtube.com/watch?v=m_QXt4_-u2U
