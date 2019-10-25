@@ -1,5 +1,5 @@
 # Tutoriel 25
-## Lecture de panneaux de limitation de vitesse
+## Lecture des panneaux de limitation de vitesse
 
 Les vidéos de ce tutoriel sont disponibles aux adresses suivantes:<br>
 partie 1: https://www.youtube.com/watch?v=PvD5POjXw8Q <br>
