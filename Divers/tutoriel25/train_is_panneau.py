@@ -60,7 +60,6 @@ for cpt in range(nbr_np):
     if not os.path.isfile(file):
         break
     image=cv2.resize(cv2.imread(file), (common.size, common.size))
-    #tab_images.append(image)
     tab.append(image)
     id+=1
     nbr+=1
@@ -117,7 +116,9 @@ def test(test_ds):
   print(message.format(test_loss.result(),
                        test_accuracy.result()*100,
                        time.time()-start))
-
+  test_loss.reset_states()
+  test_accuracy.reset_states()
+  
 optimizer=tf.keras.optimizers.Adam()
 loss_object=tf.keras.losses.BinaryCrossentropy()
 train_loss=tf.keras.metrics.Mean()

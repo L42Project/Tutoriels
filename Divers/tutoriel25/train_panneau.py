@@ -86,6 +86,7 @@ checkpoint=tf.train.Checkpoint(model_panneau=model_panneau)
 print("Entrainement")
 train(train_ds, nbr_entrainement)
 checkpoint.save(file_prefix="./training_panneau/panneau")
+
 quit()
 for i in range(len(test_images)):
     prediction=model_panneau([test_images[i]])
