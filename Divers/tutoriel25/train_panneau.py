@@ -87,9 +87,9 @@ print("Entrainement")
 train(train_ds, nbr_entrainement)
 checkpoint.save(file_prefix="./training_panneau/panneau")
 
-quit()
 for i in range(len(test_images)):
-    prediction=model_panneau([test_images[i]])
+    prediction=model_panneau(np.array([test_images[i]]))
     print("prediction", prediction, tab_panneau[np.argmax(prediction[0])])
     cv2.imshow("image", test_images[i])
-    cv2.waitKey()
+    if cv2.waitKey()&0xFF==ord('q'):
+        break
