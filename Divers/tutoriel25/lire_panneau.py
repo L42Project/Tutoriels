@@ -24,7 +24,6 @@ l=os.listdir(video_dir)
 random.shuffle(l)
 
 for video in l:
-#for video in ["20190918_173518_EF.mp4"]:
     if not video.endswith("mp4"):
         continue
     cap=cv2.VideoCapture(video_dir+"/"+video)
@@ -40,10 +39,7 @@ for video in l:
 
         image=frame[200:400, 700:1000]
         cv2.rectangle(frame, (700, 200), (1000, 400), (255, 255, 255), 1)
-
         gray=cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
-        #img=cv2.medianBlur(image,5)
-
         circles=cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, 1, 20, param1=th1, param2=th2, minRadius=5, maxRadius=45)
         if circles is not None:
             circles=np.int16(np.around(circles))
