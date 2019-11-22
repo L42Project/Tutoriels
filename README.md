@@ -90,6 +90,7 @@ https://www.youtube.com/watch?v=_5OCETzAVDs
 ### Algorithme d'apprentissage: la descente de gradient
 https://www.youtube.com/watch?v=0MEyDJa2GTc
 
-### Lecture des panneaux de limitation de vitesse
+### Tutoriel #25: Lecture des panneaux de limitation de vitesse
 partie 1: https://www.youtube.com/watch?v=PvD5POjXw8Q <br>
-partie 2: https://www.youtube.com/watch?v=TYDi0SNCUr0
+partie 2: https://www.youtube.com/watch?v=TYDi0SNCUr0 <br>
+partie 3: https://www.youtube.com/watch?v=fBysd-Y17Tw
