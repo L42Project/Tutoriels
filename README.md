@@ -94,3 +94,7 @@ https://www.youtube.com/watch?v=0MEyDJa2GTc
 partie 1: https://www.youtube.com/watch?v=PvD5POjXw8Q <br>
 partie 2: https://www.youtube.com/watch?v=TYDi0SNCUr0 <br>
 partie 3: https://www.youtube.com/watch?v=fBysd-Y17Tw
+
+# Concours DRIVE: Digital Retinal Images for Vessel Extraction
+Partie1: Mise en place du réseau UNET
+https://www.youtube.com/watch?v=MQiHsZurr5k
