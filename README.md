@@ -98,3 +98,5 @@ partie 3: https://www.youtube.com/watch?v=fBysd-Y17Tw
 ### Concours DRIVE: Digital Retinal Images for Vessel Extraction
 Partie1: Mise en place du réseau UNET
 https://www.youtube.com/watch?v=MQiHsZurr5k
+Partie2: Mesure de similarité: Dice et Jaccard à la rescousse !
+https://www.youtube.com/watch?v=26mpUDOS_IE
