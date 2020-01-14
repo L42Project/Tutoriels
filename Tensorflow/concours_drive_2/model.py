@@ -4,13 +4,13 @@ from tensorflow.keras import layers, models
 def LossDice(y_true, y_pred):
   numerateur  =tf.reduce_sum(y_true*y_pred, axis=(1, 2))
   denominateur=tf.reduce_sum(y_true+y_pred, axis=(1, 2))
-  dice=2*numerateur/(denominateur+1E4)
+  dice=2*numerateur/(denominateur+1E-4)
   return 1-dice
 
 def LossJaccard(y_true, y_pred):
   intersection=tf.reduce_sum(y_true*y_pred, axis=(1, 2))
   union       =tf.reduce_sum(y_true+y_pred, axis=(1, 2))
-  jaccard=intersection/(union-intersection+1E4)
+  jaccard=intersection/(union-intersection+1E-4)
   return 1-jaccard
 
 def model(nbr):
