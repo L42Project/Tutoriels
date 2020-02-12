@@ -100,3 +100,6 @@ Partie1: Mise en place du réseau UNET
 https://www.youtube.com/watch?v=MQiHsZurr5k <br>
 Partie2: Mesure de similarité: Dice et Jaccard à la rescousse !
 https://www.youtube.com/watch?v=26mpUDOS_IE
+
+### Tutoriel #26: OpenCV: Caméra de surveillance
+https://www.youtube.com/watch?v=2JaXsL0pUzo
