@@ -103,3 +103,6 @@ https://www.youtube.com/watch?v=26mpUDOS_IE
 
 ### Tutoriel #26: OpenCV: Caméra de surveillance
 https://www.youtube.com/watch?v=2JaXsL0pUzo
+
+### Tutoriel #27: Tensorflow 2.0: Yolo
+https://www.youtube.com/watch?v=oQ0436IJUWc
