@@ -10,7 +10,7 @@ def xml_to_dataset(dir, size=None):
         with open(fichier) as fd:
             doc=xmltodict.parse(fd.read())
             image=doc['annotation']['filename']
-            img=cv2.imread(image)
+            img=cv2.imread(dir+"/"+image)
             for obj in doc['annotation']['object']:
                 xmin=int(obj['bndbox']['xmin'])
                 xmax=int(obj['bndbox']['xmax'])
