@@ -6,8 +6,8 @@ import common
 
 video="videos/France_Motorway.mp4"
 
-if not os.path.isdir(common.images_np_dir):
-    os.mkdir(common.images_np_dir)
+if not os.path.isdir(common.dir_images_sans_panneaux):
+    os.mkdir(common.dir_images_sans_panneaux)
 
 if not os.path.exists(video):
     print("Vidéo non présente:", video)
@@ -30,7 +30,7 @@ while True:
         x=random.randint(0, w-common.size)
         y=random.randint(0, h-common.size)
         img=frame[y:y+common.size, x:x+common.size]        
-        cv2.imwrite(common.images_np_dir+"/{:d}.png".format(id), img)
+        cv2.imwrite(common.dir_images_sans_panneaux+"/{:d}.png".format(id), img)
         id+=1
         if id==nbr_image:
             quit()
