@@ -8,65 +8,6 @@ dir_images_panneaux="images_panneaux"
 dir_images_autres_panneaux="images_autres_panneaux"
 dir_images_sans_panneaux="images_sans_panneaux"
 
-def panneau_model(nbr_classes):
-    model=tf.keras.Sequential()
-
-    model.add(layers.Input(shape=(size, size, 3), dtype='float32'))
-    
-    model.add(layers.Conv2D(128, 3, strides=1))
-    model.add(layers.Dropout(0.2))
-    model.add(layers.BatchNormalization())
-    model.add(layers.Activation('relu'))
-
-    model.add(layers.Conv2D(128, 3, strides=1))
-    model.add(layers.Dropout(0.2))
-    model.add(layers.BatchNormalization())
-    model.add(layers.Activation('relu'))
-
-    model.add(layers.MaxPool2D(pool_size=2, strides=2))
-
-    model.add(layers.Conv2D(256, 3, strides=1))
-    model.add(layers.Dropout(0.3))
-    model.add(layers.BatchNormalization())
-    model.add(layers.Activation('relu'))
-
-    model.add(layers.Conv2D(256, 3, strides=1))
-    model.add(layers.Dropout(0.4))
-    model.add(layers.BatchNormalization())
-    model.add(layers.Activation('relu'))
-
-    model.add(layers.MaxPool2D(pool_size=2, strides=2))
-
-    model.add(layers.Flatten())
-    model.add(layers.Dense(512, activation='relu'))
-    model.add(layers.Dropout(0.5))
-    model.add(layers.BatchNormalization())
-    model.add(layers.Dense(nbr_classes, activation='softmax'))
-
-    return model
-
-def is_panneau_model():
-    model=tf.keras.Sequential()
-
-    model.add(layers.Input(shape=(size, size, 3), dtype='float32'))
-    
-    model.add(layers.Conv2D(64, 3, strides=1))
-    model.add(layers.BatchNormalization())
-    model.add(layers.Activation('relu'))
-    model.add(layers.MaxPool2D(pool_size=2, strides=2))
-
-    model.add(layers.Conv2D(128, 3, strides=1))
-    model.add(layers.BatchNormalization())
-    model.add(layers.Activation('relu'))
-    model.add(layers.MaxPool2D(pool_size=2, strides=2))
-
-    model.add(layers.Flatten())
-    model.add(layers.Dense(256, activation='relu'))
-    model.add(layers.BatchNormalization())
-    model.add(layers.Dense(1, activation='sigmoid'))
-
-    return model
-
 def lire_images_panneaux(dir_images_panneaux, size=None):
     tab_panneau=[]
     tab_image_panneau=[]
