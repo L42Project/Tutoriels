@@ -109,3 +109,6 @@ https://www.youtube.com/watch?v=oQ0436IJUWc
 
 ### Tutoriel #27: Tensorflow 2.0: Yolo : non max suppression
 https://www.youtube.com/watch?v=nu7stszOKJA
+
+### Tutoriel #27: Tensorflow 2.0: Yolo : F-beta score
+https://www.youtube.com/watch?v=NkY3Kh-4xN4
