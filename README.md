@@ -112,3 +112,6 @@ https://www.youtube.com/watch?v=nu7stszOKJA
 
 ### Tutoriel #27: Tensorflow 2.0: Yolo : F-beta score
 https://www.youtube.com/watch?v=NkY3Kh-4xN4
+
+### Tutoriel #28: OpenCV: Laisser une trace
+https://www.youtube.com/watch?v=358qiW8nXpw
