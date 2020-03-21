@@ -1,6 +1,8 @@
 import cv2
 import numpy as np
 
+marge=15
+
 def souris(event, x, y, flags, param):
     global lo, hi, color
     if event==cv2.EVENT_LBUTTONDBLCLK:
@@ -12,12 +14,12 @@ def souris(event, x, y, flags, param):
         else:
             if color<250:
                 color+=1
-    lo[0]=color-15
-    hi[0]=color+15
+    lo[0]=color-marge
+    hi[0]=color+marge
 
 color=90
-lo=np.array([color-5, 50, 50])
-hi=np.array([color+5, 255,255])
+lo=np.array([color-marge, 50, 50])
+hi=np.array([color+marge, 255,255])
 color_info=(0, 255, 0)
 cap=cv2.VideoCapture(0)
 cv2.namedWindow('Camera')
