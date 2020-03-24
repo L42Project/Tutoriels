@@ -1,8 +1,5 @@
 import cv2
 import numpy as np
-import tensorflow as tf
-import sudoku_solver as ss
-from time import sleep
 import operator
 
 marge=4
@@ -53,7 +50,7 @@ while True:
         cv2.putText(frame, "4", (points[3][0], points[3][1]), cv2.FONT_HERSHEY_COMPLEX_SMALL, 0.9, (0, 0, 255), 1)
         cv2.imshow("grille", grille)
     txt="ADAPTIVE_THRESH_MEAN_C" if methode==cv2.ADAPTIVE_THRESH_MEAN_C else "ADAPTIVE_THRESH_GAUSSIAN_C"
-    cv2.putText(frame, "[u|j]v1: {:2d}  [o]methode: {}".format(v1, txt), (10, 20), cv2.FONT_HERSHEY_COMPLEX_SMALL, 0.9, (0, 0, 255), 1)
+    cv2.putText(frame, "[p|m]v1: {:2d}  [o]methode: {}".format(v1, txt), (10, 20), cv2.FONT_HERSHEY_COMPLEX_SMALL, 0.9, (0, 0, 255), 1)
     cv2.imshow("frame", frame)
     key=cv2.waitKey(1)&0xFF
     if key==ord('q'):
