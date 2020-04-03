@@ -118,3 +118,6 @@ https://www.youtube.com/watch?v=358qiW8nXpw
 
 ### Tutoriel 29: Segmentation d'image avec l'algorithme des K-moyennes
 https://www.youtube.com/watch?v=ytii3XvapRY
+
+### Tutoriel 30: Réseau binaire avec Keras
+https://www.youtube.com/watch?v=YLhDlHhthIM
