@@ -121,3 +121,4 @@ https://www.youtube.com/watch?v=ytii3XvapRY
 
 ### Tutoriel 30: Réseau binaire avec Keras
 https://www.youtube.com/watch?v=YLhDlHhthIM
+ 
