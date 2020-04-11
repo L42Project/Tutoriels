@@ -41,8 +41,8 @@ def dessine_ligne(tab_point):
 while True:
     ret, frame=cap.read()
     image=cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
-    mask=cv2.inRange(image, lo, hi)
     image=cv2.blur(image, (5, 5))
+    mask=cv2.inRange(image, lo, hi)
     mask=cv2.erode(mask, None, iterations=2)
     mask=cv2.dilate(mask, None, iterations=4)
     elements=cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[-2]
