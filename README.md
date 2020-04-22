@@ -125,3 +125,5 @@ https://www.youtube.com/watch?v=YLhDlHhthIM
 ### Tutoriel 31: K-moyennes: coefficient silhouette
 https://www.youtube.com/watch?v=H_AW_lwvdDk
 
+### Concours HC18: Mesurer un foetus à partir d'image d'échographie
+https://www.youtube.com/watch?v=BCOLI8CTF00
