@@ -121,4 +121,7 @@ https://www.youtube.com/watch?v=ytii3XvapRY
 
 ### Tutoriel 30: Réseau binaire avec Keras
 https://www.youtube.com/watch?v=YLhDlHhthIM
- 
+
+### Tutoriel 31: K-moyennes: coefficient silhouette
+https://www.youtube.com/watch?v=H_AW_lwvdDk
+
