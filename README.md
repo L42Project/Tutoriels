@@ -127,3 +127,6 @@ https://www.youtube.com/watch?v=H_AW_lwvdDk
 
 ### Concours HC18: Mesurer un foetus à partir d'image d'échographie
 https://www.youtube.com/watch?v=BCOLI8CTF00
+
+### Apprentissage par renforcement: processus de décision markovien
+https://www.youtube.com/watch?v=Rgxs8lfoG4I
