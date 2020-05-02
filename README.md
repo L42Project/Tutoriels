@@ -130,3 +130,7 @@ https://www.youtube.com/watch?v=BCOLI8CTF00
 
 ### Apprentissage par renforcement: processus de décision markovien
 https://www.youtube.com/watch?v=Rgxs8lfoG4I
+
+### Apprentissage par renforcement: équation de Bellman
+https://www.youtube.com/watch?v=4Ak6OyehqJc
+
