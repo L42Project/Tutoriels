@@ -18,7 +18,7 @@ Pour utiliser ce programme, vous devez récuperer les fichiers MNIST sur le site
 http://yann.lecun.com/exdb/mnist/
 et les placer dans le repertoire ./mnist
 
-La courbe d'érreur après 200 cycles d'apprentissage est la suivante :
+La courbe d'erreur après 200 cycles d'apprentissage est la suivante :
 
 ![alt text](https://github.com/L42Project/Tutoriels/blob/master/Tensorflow/tutoriel1/graph_error.png)
 
