@@ -6,7 +6,12 @@ https://www.youtube.com/watch?v=mUyRdiQRJBI
 
 N'hésitez pas à faire des commentaires sur youtube
 
-Pour utiliser ce script, vous devez récuperer les fichier MNIST sur le site suivant:
+Le code de cette vidéo est écrit pour la version 1.X de tensorflow (je recommande la version 1.13), pour l'installer, il suffit de taper la commande suivante :
+# pip install tensorflow==1.13
+ou la version GPU:
+# pip install tensorflow-gpu==1.13
+
+Pour utiliser ce programme, vous devez récuperer les fichiers MNIST sur le site suivant:
 http://yann.lecun.com/exdb/mnist/
 et les placer dans le repertoire ./mnist
 
