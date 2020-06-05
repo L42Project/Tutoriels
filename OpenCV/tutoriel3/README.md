@@ -7,7 +7,7 @@ Pour utiliser OpenCV, il suffit d'installer le package suivant:
 
 `# pip install opencv-python`
 
-Je vous conseille d'installer aussi:
+Je vous conseille aussi d'installer:
 
 `# pip install opencv-contrib-python`
 
