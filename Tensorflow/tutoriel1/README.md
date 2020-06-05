@@ -7,9 +7,9 @@ https://www.youtube.com/watch?v=WeotsGN_138
 N'hésitez pas à faire des commentaires sur youtube.
 
 Le code de cette vidéo est écrit pour la version 1.X de tensorflow (je recommande la version 1.13), pour l'installer, il suffit de taper la commande suivante :
-# pip install tensorflow==1.13
+```# pip install tensorflow==1.13
 ou la version GPU:
-# pip install tensorflow-gpu==1.13
+```# pip install tensorflow-gpu==1.13
 
 Pour utiliser ce script, vous devez récuperer les fichier MNIST sur le site suivant:
 http://yann.lecun.com/exdb/mnist/
