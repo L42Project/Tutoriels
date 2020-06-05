@@ -1,6 +1,8 @@
 # Tutoriel OpenCV
 ## Détection d'objet avec la fonction detectMultiScale
 
+Si vous souhaitez me soutenir: <https://fr.tipeee.com/l42-project>
+
 Pour utiliser OpenCV, il suffit d'installer le package suivant:
 
 `# pip install opencv-python`
