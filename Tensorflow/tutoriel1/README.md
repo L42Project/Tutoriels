@@ -14,7 +14,7 @@ ou la version GPU:
 
 `# pip install tensorflow-gpu==1.13`
 
-Pour utiliser ce script, vous devez récuperer les fichier MNIST sur le site suivant:
+Pour utiliser ce programme, vous devez récuperer les fichier MNIST sur le site suivant:
 http://yann.lecun.com/exdb/mnist/
 et les placer dans le repertoire ./mnist
 
