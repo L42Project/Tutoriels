@@ -4,7 +4,7 @@
 La vidéo du tutoriel se trouve à l'adresse suivante:
 https://www.youtube.com/watch?v=mUyRdiQRJBI
 
-N'hésitez pas à faire des commentaires sur youtube
+Si vous souhaitez me soutenir: <https://fr.tipeee.com/l42-project>
 
 Le code de cette vidéo est écrit pour la version 1.X de tensorflow (je recommande la version 1.13), pour l'installer, il suffit de taper la commande suivante :
 
