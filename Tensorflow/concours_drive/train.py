@@ -12,9 +12,9 @@ dir_images='./training/images/'
 dir_mask  ='./training/1st_manual/'
 
 if not os.path.isdir(dir_images):
-    quit("The directory {} don't exist !".format(dir_images))
+    quit("The directory {} doesn't exist !".format(dir_images))
 if not os.path.isdir(dir_mask):
-    quit("The directory {} don't exist !".format(dir_mask))
+    quit("The directory {} doesn't exist !".format(dir_mask))
 
 tab_images=[]
 tab_masks=[]
@@ -29,7 +29,7 @@ for fichier in list_file:
     num=fichier.split('_')[0]
     file_mask=dir_mask+num+'_manual1.gif'
     if not os.path.isfile(file_mask):
-        quit("Mask of {} don't exist in {}".format(file_mask, dir_mask))
+        quit("Mask of {} doesn't exist in {}".format(file_mask, dir_mask))
     img_mask_orig=np.array(Image.open(file_mask))
     tab_masks.append(img_mask_orig[:576, :560])
 
