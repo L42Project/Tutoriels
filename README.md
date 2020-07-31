@@ -139,3 +139,4 @@ https://www.youtube.com/watch?v=_X_yOC7zh4c
 
 ### Keras: Utilisation des Callbacks
 https://www.youtube.com/watch?v=_cBmcp5zi2w
+ 
