@@ -139,4 +139,6 @@ https://www.youtube.com/watch?v=_X_yOC7zh4c
 
 ### Keras: Utilisation des Callbacks
 https://www.youtube.com/watch?v=_cBmcp5zi2w
- 
+
+### Apprentissage par renforcement: Q learning "basique" avec un perceptron
+https://www.youtube.com/watch?v=03U-3BOqfMs
