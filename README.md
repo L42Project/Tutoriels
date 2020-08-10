@@ -142,3 +142,9 @@ https://www.youtube.com/watch?v=_cBmcp5zi2w
 
 ### Apprentissage par renforcement: Q learning "basique" avec un perceptron
 https://www.youtube.com/watch?v=03U-3BOqfMs
+
+### Apprentissage par renforcement: Pacman en mode target !
+https://www.youtube.com/watch?v=F-u9AOMt7zo
+
+
+
