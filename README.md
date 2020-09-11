@@ -146,5 +146,5 @@ https://www.youtube.com/watch?v=03U-3BOqfMs
 ### Apprentissage par renforcement: Pacman en mode target !
 https://www.youtube.com/watch?v=F-u9AOMt7zo
 
-
-
+### OpenCV: Detecter des oeufs
+https://www.youtube.com/watch?v=iRqlGfReGG8
