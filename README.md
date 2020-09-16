@@ -148,3 +148,6 @@ https://www.youtube.com/watch?v=F-u9AOMt7zo
 
 ### OpenCV: Detecter des oeufs
 https://www.youtube.com/watch?v=iRqlGfReGG8
+
+### Tensorflow: GAN conditionnel
+https://www.youtube.com/watch?v=9Je5f8UwQ98
