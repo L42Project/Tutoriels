@@ -151,3 +151,7 @@ https://www.youtube.com/watch?v=iRqlGfReGG8
 
 ### Tensorflow: GAN conditionnel
 https://www.youtube.com/watch?v=9Je5f8UwQ98
+
+### Filtre de Kalman
+https://www.youtube.com/watch?v=IT4i_ooQDDM
+
