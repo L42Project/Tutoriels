@@ -1,22 +1,18 @@
-import tensorflow as tf
 import cv2
-import os
 import numpy as np
-import random
-import common
 
 param1=30
 param2=55
 dp=1.0
 
-cap=cv2.VideoCapture(1)
+cap=cv2.VideoCapture(0)
 
 while True:
     ret, frame=cap.read()
     gray=cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
     circles=cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, dp, 20, param1=param1, param2=param2, minRadius=10, maxRadius=50)
     if circles is not None:
-        circles=np.around(circles)
+        circles=np.around(circles).astype(np.int32)
         for i in circles[0, :]:
             if i[2]!=0:
                 cv2.circle(frame, (i[0], i[1]), i[2], (0, 255, 0), 4)
