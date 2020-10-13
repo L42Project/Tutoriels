@@ -11,6 +11,7 @@ def moyenne_image(video, nbr):
         image=cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         tab_image.append(image)
     tab_image=np.array(tab_image)
+    cap.release()
     return np.mean(tab_image, axis=0)
 
 def calcul_mask(image, fond, seuil):
