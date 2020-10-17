@@ -3,7 +3,8 @@ import operator
 import common as c
 
 face_cascade=cv2.CascadeClassifier("./haarcascade_frontalface_alt2.xml")
-cap=cv2.VideoCapture("Plan 9 from Outer Space Charles Burg, J. Edward Reynolds, Hu.mp4")
+#cap=cv2.VideoCapture("Plan 9 from Outer Space Charles Burg, J. Edward Reynolds, Hu.mp4")
+cap=cv2.VideoCapture("Plan_9_from_Outer_Space_1959_512kb.mp4")
 
 id=0
 while True:
@@ -14,13 +15,13 @@ while True:
         cv2.imwrite("non-classees/p-{:d}.png".format(id), frame[y:y+h, x:x+w])
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 0, 255), 2)
         id+=1
+    cv2.imshow('video', frame)
     key=cv2.waitKey(1)&0xFF
     if key==ord('q'):
         break
     if key==ord('a'):
         for cpt in range(100):
             ret, frame=cap.read()
-    cv2.imshow('video', frame)
     for cpt in range(4):
         ret, frame=cap.read()
 cap.release()

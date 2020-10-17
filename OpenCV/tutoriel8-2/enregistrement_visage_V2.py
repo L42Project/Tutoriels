@@ -3,9 +3,20 @@ import operator
 import os
 import common as c
 
-face_cascade=cv2.CascadeClassifier("./haarcascade_frontalface_alt2.xml")
-cap=cv2.VideoCapture("Plan 9 from Outer Space Charles Burg, J. Edward Reynolds, Hu.mp4")
+video="Plan_9_from_Outer_Space_1959_512kb.mp4"
+cascade="./haarcascade_frontalface_alt2.xml"
 img_non_classees='non-classees'
+
+if not os.path.exists(video):
+    print("Le fichier video n'existe pas", video)
+    quit()
+
+if not os.path.exists(cascade):
+    print("Le fichier cascade n'existe pas", cascade)
+    quit()
+
+face_cascade=cv2.CascadeClassifier(cascade)
+cap=cv2.VideoCapture(video)
 
 if not os.path.isdir(img_non_classees):
     os.mkdir(img_non_classees)
@@ -21,13 +32,13 @@ while True:
         cv2.imwrite("{}/p-{:d}.png".format(img_non_classees, id), frame[y:y+h, x:x+w])
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 0, 255), 2)
         id+=1
+    cv2.imshow('video', frame)
     key=cv2.waitKey(1)&0xFF
     if key==ord('q'):
         break
     if key==ord('a'):
         for cpt in range(100):
             ret, frame=cap.read()
-    cv2.imshow('video', frame)
     for cpt in range(4):
         ret, frame=cap.read()
 

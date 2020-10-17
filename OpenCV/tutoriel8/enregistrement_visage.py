@@ -14,14 +14,13 @@ while True:
         cv2.imwrite("non-classees/p-{:d}.png".format(id), frame[y:y+h, x:x+w])
         cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 0, 255), 2)
         id+=1
+    cv2.imshow('video', frame)
     key=cv2.waitKey(1)&0xFF
     if key==ord('q'):
         break
     if key==ord('a'):
         for cpt in range(100):
             ret, frame=cap.read()
-
-    cv2.imshow('video', frame)
 
 cap.release()
 cv2.destroyAllWindows()
