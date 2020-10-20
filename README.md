@@ -155,3 +155,5 @@ https://www.youtube.com/watch?v=9Je5f8UwQ98
 ### Filtre de Kalman
 https://www.youtube.com/watch?v=IT4i_ooQDDM
 
+### Filtre de Kalman partie 2
+https://www.youtube.com/watch?v=pR0TAFWnDdU
