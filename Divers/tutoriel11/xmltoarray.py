@@ -11,7 +11,8 @@ def xml_to_dataset(dir, size=None):
             doc=xmltodict.parse(fd.read())
             image=doc['annotation']['filename']
             img=cv2.imread(dir+"/"+image)
-            for obj in doc['annotation']['object']:
+            objects=doc['annotation']['object'] if type(doc['annotation']['object'])==list else [doc['annotation']['object']]
+            for obj in objects:
                 xmin=int(obj['bndbox']['xmin'])
                 xmax=int(obj['bndbox']['xmax'])
                 ymin=int(obj['bndbox']['ymin'])
