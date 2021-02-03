@@ -157,3 +157,7 @@ https://www.youtube.com/watch?v=IT4i_ooQDDM
 
 ### Filtre de Kalman partie 2
 https://www.youtube.com/watch?v=pR0TAFWnDdU
+
+### Local Binary Pattern
+https://www.youtube.com/watch?v=zUdEaE8Kpac
+
