@@ -146,18 +146,18 @@ https://www.youtube.com/watch?v=03U-3BOqfMs
 ### Apprentissage par renforcement: Pacman en mode target !
 https://www.youtube.com/watch?v=F-u9AOMt7zo
 
-### OpenCV: Detecter des oeufs
+### Tutoriel34: OpenCV: Detecter des oeufs
 https://www.youtube.com/watch?v=iRqlGfReGG8
 
-### Tensorflow: GAN conditionnel
+### Tutoriel35: Tensorflow: GAN conditionnel
 https://www.youtube.com/watch?v=9Je5f8UwQ98
 
-### Filtre de Kalman
+### Tutoriel 36: Filtre de Kalman partie 1
 https://www.youtube.com/watch?v=IT4i_ooQDDM
 
-### Filtre de Kalman partie 2
+### Tutoriel 36: Filtre de Kalman partie 2
 https://www.youtube.com/watch?v=pR0TAFWnDdU
 
-### Local Binary Pattern
+### Tutoriel37: Local Binary Pattern
 https://www.youtube.com/watch?v=zUdEaE8Kpac
 
