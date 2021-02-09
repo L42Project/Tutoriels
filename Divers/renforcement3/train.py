@@ -93,7 +93,7 @@ def train(debug=False):
       print("Sauvegarde du modele")
       model.save("my_model")
       best_score=np.mean(tab_score[-20:])
-      if best_score==499:
+      if best_score==env._max_episode_steps-1:
         return
       
 model=model()
