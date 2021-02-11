@@ -161,3 +161,6 @@ https://www.youtube.com/watch?v=pR0TAFWnDdU
 ### Tutoriel37: Local Binary Pattern
 https://www.youtube.com/watch?v=zUdEaE8Kpac
 
+### Apprentissage par renforcement: méthode 'acteur'
+https://www.youtube.com/watch?v=LtRAgxRb5eQ
+
