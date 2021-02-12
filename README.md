@@ -164,3 +164,5 @@ https://www.youtube.com/watch?v=zUdEaE8Kpac
 ### Apprentissage par renforcement: méthode 'acteur'
 https://www.youtube.com/watch?v=LtRAgxRb5eQ
 
+### Apprentissage par renforcement: méthode 'acteur/critique'
+https://www.youtube.com/watch?v=1okjkEMP79c
