@@ -166,3 +166,7 @@ https://www.youtube.com/watch?v=LtRAgxRb5eQ
 
 ### Apprentissage par renforcement: méthode 'acteur/critique'
 https://www.youtube.com/watch?v=1okjkEMP79c
+
+### Tutoriel 38: Vecteur embedding, TripletLoss, FaceNet
+https://www.youtube.com/watch?v=x3PbnSNV5n0
+
