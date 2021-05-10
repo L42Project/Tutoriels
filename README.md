@@ -170,8 +170,8 @@ https://www.youtube.com/watch?v=1okjkEMP79c
 ### Tutoriel 38: Vecteur embedding, TripletLoss, FaceNet
 https://www.youtube.com/watch?v=x3PbnSNV5n0
 
-### RealSense sur Jetson Nano
+### Tutoriel 39: RealSense sur Jetson Nano
 https://www.youtube.com/watch?v=RPZB2qE8Yp4
 
-### Inférence sur Jetson Nano
+### Tutoriel 40: Inférence sur Jetson Nano
 https://www.youtube.com/watch?v=xU9qlCy7j1c
