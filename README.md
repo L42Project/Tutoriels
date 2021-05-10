@@ -172,3 +172,6 @@ https://www.youtube.com/watch?v=x3PbnSNV5n0
 
 ### RealSense sur Jetson Nano
 https://www.youtube.com/watch?v=RPZB2qE8Yp4
+
+### Inférence sur Jetson Nano
+https://www.youtube.com/watch?v=xU9qlCy7j1c
