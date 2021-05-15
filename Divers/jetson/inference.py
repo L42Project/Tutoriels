@@ -14,7 +14,6 @@ config=rs.config()
 
 pipeline_wrapper=rs.pipeline_wrapper(pipeline)
 pipeline_profile=config.resolve(pipeline_wrapper)
-device=pipeline_profile.get_device()
 
 config.enable_stream(rs.stream.depth, 640, 480, rs.format.z16, 15)
 config.enable_stream(rs.stream.color, 640, 480, rs.format.bgr8, 15)
