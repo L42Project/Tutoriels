@@ -175,3 +175,6 @@ https://www.youtube.com/watch?v=RPZB2qE8Yp4
 
 ### Tutoriel 40: Inférence sur Jetson Nano
 https://www.youtube.com/watch?v=xU9qlCy7j1c
+
+### Tutoriel 41: Identification avec face_recognition
+https://www.youtube.com/watch?v=HHv_V2PkZGQ
