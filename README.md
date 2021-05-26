@@ -178,3 +178,7 @@ https://www.youtube.com/watch?v=xU9qlCy7j1c
 
 ### Tutoriel 41: Identification avec face_recognition
 https://www.youtube.com/watch?v=HHv_V2PkZGQ
+
+### Parlons actuator, odrive, moteur ...
+https://www.youtube.com/watch?v=Mg-KiG3Rq2Q
+
