@@ -19,7 +19,7 @@ https://www.youtube.com/watch?v=-3xbAkCWJCc
 https://www.youtube.com/watch?v=VKSHZGLg4zk
 
 ### Tutoriel #5: Tensorflow: batch normalisation d'un VGGnet sur CIFAR10
-https://www.youtube.com/watch?v=vIOdUchtbhQ
+https://www.youtube.com/watch?v=QaazrkwooFA
 
 ### Tutoriel #6:Tensorflow: sauvegarde et restauration d'un modèle
 https://www.youtube.com/watch?v=vIOdUchtbhQ
