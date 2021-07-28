@@ -105,7 +105,8 @@ https://www.youtube.com/watch?v=26mpUDOS_IE
 https://www.youtube.com/watch?v=2JaXsL0pUzo
 
 ### Tutoriel #27: Tensorflow 2.0: Yolo
-https://www.youtube.com/watch?v=oQ0436IJUWc
+Partie 1 (théorie): https://www.youtube.com/watch?v=cXDzzefyGPs
+Parite 2 (implémentation): https://www.youtube.com/watch?v=oQ0436IJUWc
 
 ### Tutoriel #27: Tensorflow 2.0: Yolo : non max suppression
 https://www.youtube.com/watch?v=nu7stszOKJA
